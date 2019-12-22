@@ -1,7 +1,7 @@
 function msj(){
    document.getElementById("modal").style.width="350px";
    modal.style.position="absolute";
-   modal.style.height="320px";
+   modal.style.height="360px";
    modal.style.background="rgba(0,0,0,.9)";
    modal.style.Top="0px";
    modal.style.left="0";
