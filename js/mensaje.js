@@ -1,12 +1,12 @@
 function msj(){
    document.getElementById("modal").style.width="350px";
    modal.style.position="absolute";
-   modal.style.height="360px";
+   modal.style.height="390px";
    modal.style.background="rgba(0,0,0,.9)";
    modal.style.Top="0px";
    modal.style.left="0";
    modal.style.right="0";
-   modal.style.bottom="390px";
+   modal.style.bottom="320px";
    modal.style.margin="auto";
    modal.style.borderRadius="10px";
    modal.innerHTML = "<a href='video.html'><input type='submit' value='X' id='cerrar'></a> <h1 id='titulo'>Para ti</h1><p id='parrafo'></p>";    
@@ -39,5 +39,6 @@ function msj(){
     
     parrafo.style.padding = "20px";   
     parrafo.style.color = "white";
-    parrafo.style.overflow = "scroll";
+    parrafo.style.position = "absolute";
+    
 }
