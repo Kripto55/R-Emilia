@@ -39,5 +39,5 @@ function msj(){
     
     parrafo.style.padding = "20px";   
     parrafo.style.color = "white";
-    
+    parrafo.style.overflow = "scroll";
 }
